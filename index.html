@@ -51,17 +51,18 @@
           <legend>Would you recommend freeCodeCamp to a friend?</legend>
           <label for="definitely"
             ><input
+              required
               value="define"
               id="definitely"
               type="radio"
               name="recommend"
               class="inline"
-              checked
             />
             Definitely</label
           >
           <label for="maybe"
             ><input
+              required
               value="maybe"
               id="maybe"
               type="radio"
@@ -72,6 +73,7 @@
           >
           <label for="not-sure"
             ><input
+              required
               value="not-sure"
               id="not-sure"
               type="radio"
@@ -86,11 +88,11 @@
             >What is your favorite feature of freeCodeCamp?</label
           >
           <select id="feature" name="feature" required>
-            <option>Select an option</option>
-            <option>Challenges</option>
-            <option>Projects</option>
-            <option>Community</option>
-            <option>Open Source</option>
+            <option value="">Select an option</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Open Source">Open Source</option>
           </select>
         </fieldset>
         <fieldset id="checkbox">
